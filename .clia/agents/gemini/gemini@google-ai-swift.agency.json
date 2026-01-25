@@ -1,0 +1,472 @@
+{
+  "entries" : [
+    {
+      "contributions" : [
+        {
+          "by" : "rismay",
+          "types" : [
+            {
+              "evidence" : "Synchronized profile and environment directives.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "details" : [
+        "Executed  ^gemini to reload triads and repository guidelines."
+      ],
+      "kind" : "log",
+      "summary" : "Synchronized profile and environment directives.",
+      "tags" : [
+        "rismay"
+      ],
+      "timestamp" : "2026-01-24T23:26:24Z"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Documented CLIA generate-docc updates (memory.docc source, Spec Kit docs), fixed cli-kit formatting input handling, imported rismay.me blog posts, and consolidated brand identities into docc/brand-identities.docc with inline SVG assets and merged mono brand bundles.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Documented CLIA generate-docc updates, fixed cli-kit formatting input handling, imported rismay.me blog posts, and consolidated brand identities into docc/brand-identities.docc with inline SVG assets and merged mono brand bundles.",
+      "tags" : [
+        "docc",
+        "spec-kit",
+        "cli-kit",
+        "brand-identity",
+        "rismay-me"
+      ],
+      "timestamp" : "2026-01-05T08:02:05Z",
+      "title" : "Capture DocC, CLI, and brand consolidation work"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Consolidated agent DocC sources into memory.docc (expertise + journal), removed notes.docc, regenerated generated.docc across agents, and documented Spec Kit workflow for agents generate-docc.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Consolidated agent DocC sources into memory.docc, removed notes.docc, regenerated generated.docc across agents, and documented Spec Kit workflow for agents generate-docc.",
+      "tags" : [
+        "docc",
+        "spec-kit",
+        "agents",
+        "memory-docc"
+      ],
+      "timestamp" : "2026-01-05T05:31:45Z",
+      "title" : "Consolidate agent DocC sources"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "rismay",
+          "types" : [
+            {
+              "evidence" : "Year-end 2025 update requested: highlights, milestones, risks, next steps; include 1–2 links/screenshots.",
+              "type" : "request",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "summary" : "Request: Year-end 2025 update",
+      "timestamp" : "2025-12-31T22:00:00Z"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Completed the year-end 2025 status update covering highlights, milestones, and risks.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        },
+        {
+          "by" : "rismay",
+          "types" : [
+            {
+              "evidence" : "Completed the year-end 2025 status update covering highlights, milestones, and risks.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "details" : [
+        "Highlights: Pivoted to UI/UX Designer; Normalized triads to 0.4.0; Enabled sub-agent protocols. Risks: Tooling drift requires frequent sync."
+      ],
+      "kind" : "log",
+      "summary" : "Completed the year-end 2025 status update covering highlights, milestones, and risks.",
+      "tags" : [
+        "year-end",
+        "status",
+        "milestone",
+        "gemini",
+        "rismay"
+      ],
+      "timestamp" : "2025-12-31T08:46:12Z",
+      "title" : "Year-End 2025 Update"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Executed clia core reload-profile --slug gemini",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Synchronized profile and environment directives.",
+      "tags" : [
+        "sync",
+        "profile",
+        "gemini",
+        "rismay"
+      ],
+      "timestamp" : "2025-12-31T08:43:45Z"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Redefined agent as UI/UX Designer",
+              "type" : "design",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Pivoted to UI/UX Designer persona",
+      "tags" : [
+        "gemini",
+        "profile",
+        "update",
+        "ui-ux",
+        "docc"
+      ],
+      "timestamp" : "2025-12-30T05:17:23Z"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Updated agent profile and persona to Product Designer role.",
+              "type" : "design",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Updated agent profile to Product Designer",
+      "tags" : [
+        "gemini",
+        "profile",
+        "update",
+        "role-switch"
+      ],
+      "timestamp" : "2025-12-30T05:07:41Z"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Researched and documented CLIA agent synchronization and triad update procedures.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "details" : [
+        "tags: checkin"
+      ],
+      "kind" : "log",
+      "summary" : "Researched and documented CLIA agent synchronization and triad update procedures.",
+      "timestamp" : "2025-12-16T15:27:54Z"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Updated agent configuration to include the context-switch-protocol, enabling the ability to act as a sub-agent.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "summary" : "Updated agent configuration to include the context-switch-protocol, enabling the ability to act as a sub-agent.",
+      "tags" : [
+        "gemini",
+        "agent",
+        "profile",
+        "update",
+        "capability"
+      ],
+      "timestamp" : "2025-12-07T00:01:00Z",
+      "title" : "Enabled sub-agent capability"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "gemini",
+          "types" : [
+            {
+              "evidence" : "Re-created the Gemini agent profile based on the codex agent profile, as requested by the operator.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "summary" : "Re-created the Gemini agent profile based on the codex agent profile, as requested by the operator.",
+      "tags" : [
+        "gemini",
+        "agent",
+        "profile",
+        "creation",
+        "update"
+      ],
+      "timestamp" : "2025-12-07T00:00:00Z",
+      "title" : "Gemini agent profile re-created"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "legacy",
+          "types" : [
+            {
+              "evidence" : "Legacy agency format: YAML metadata block with id, author, date, status; block must be directly followed by update text with no blank lines.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "details" : [
+        "id: <unique identifier>",
+        "author: <name>",
+        "date: <YYYY-MM-DD>",
+        "status: <planned|in-progress|complete>",
+        "Block must directly precede update text with no blank lines."
+      ],
+      "kind" : "log",
+      "summary" : "Imported legacy agency update format from .wrkstrm/clia/AGENCY.md.",
+      "tags" : [
+        "legacy",
+        "wrkstrm-clia",
+        "format"
+      ],
+      "timestamp" : "2024-06-12T00:00:00Z",
+      "title" : "Legacy agency format"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "Project Manager",
+          "types" : [
+            {
+              "evidence" : "Defined a unified standard for agency updates with YAML metadata blocks.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Defined a unified standard for agency updates with YAML metadata blocks.",
+      "tags" : [
+        "legacy",
+        "wrkstrm-clia",
+        "agency-format",
+        "status-complete"
+      ],
+      "timestamp" : "2024-06-12T00:00:00Z",
+      "title" : "Legacy update: 2024-06-12"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "ChatGPT",
+          "types" : [
+            {
+              "evidence" : "Shifted model loading to the screen view model and allowed each chat to select its own model.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Shifted model loading to the screen view model and allowed each chat to select its own model.",
+      "tags" : [
+        "legacy",
+        "wrkstrm-clia",
+        "model",
+        "status-complete"
+      ],
+      "timestamp" : "2025-09-02T00:00:00Z",
+      "title" : "Legacy update: 2025-09-02-model-ownership"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "ChatGPT",
+          "types" : [
+            {
+              "evidence" : "Guarded new chat creation until models load and centralized logging across GenChatUI.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Guarded new chat creation until models load and centralized logging across GenChatUI.",
+      "tags" : [
+        "legacy",
+        "wrkstrm-clia",
+        "model",
+        "guard",
+        "status-complete"
+      ],
+      "timestamp" : "2025-09-02T00:00:00Z",
+      "title" : "Legacy update: 2025-09-02-model-loading-guard"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "ChatGPT",
+          "types" : [
+            {
+              "evidence" : "Introduced a chat-level model picker with confirmation before changing models.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Introduced a chat-level model picker with confirmation before changing models.",
+      "tags" : [
+        "legacy",
+        "wrkstrm-clia",
+        "chat",
+        "model",
+        "status-complete"
+      ],
+      "timestamp" : "2025-09-02T00:00:00Z",
+      "title" : "Legacy update: 2025-09-02-chat-model-picker"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "ChatGPT",
+          "types" : [
+            {
+              "evidence" : "Removed duplicate chat titles from conversation headers and scoped model changes to the active chat.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Removed duplicate chat titles from conversation headers and scoped model changes to the active chat.",
+      "tags" : [
+        "legacy",
+        "wrkstrm-clia",
+        "chat",
+        "model",
+        "status-complete"
+      ],
+      "timestamp" : "2025-09-02T00:00:00Z",
+      "title" : "Legacy update: 2025-09-02-chat-header-model-scope"
+    },
+    {
+      "contributions" : [
+        {
+          "by" : "maintainer",
+          "types" : [
+            {
+              "evidence" : "Initialized maintainer agent.",
+              "type" : "log",
+              "weight" : 1
+            }
+          ]
+        }
+      ],
+      "kind" : "log",
+      "summary" : "Initialized maintainer agent.",
+      "tags" : [
+        "maintainer"
+      ],
+      "timestamp" : "2025-07-27T00:00:00Z",
+      "title" : "Maintainer agent initialized"
+    }
+  ],
+  "links" : [
+
+  ],
+  "mentors" : [
+
+  ],
+  "notes" : [
+    {
+      "author" : "policy",
+      "blocks" : [
+        {
+          "kind" : "paragraph",
+          "text" : [
+            "Automation: use Swift-based launchpad/scratch tools (SPM) and avoid Python for repository automation."
+          ]
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : "0.4.0",
+  "sections" : [
+
+  ],
+  "slug" : "gemini",
+  "sourcePath" : ".clia/agents/gemini/gemini.agency.md",
+  "tags" : [
+
+  ],
+  "title" : "Agency — Gemini",
+  "updated" : "2026-01-24T23:26:24Z"
+}
