@@ -24,7 +24,7 @@ if [[ $# -lt 1 ]]; then
   cat 1>&2 <<EOF
 USAGE: $0 product [platform] [method]
 product can be one of:
-  generative-ai-swift
+  google-ai-swift
 platform can be one of:
   iOS (default)
   iOS-device

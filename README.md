@@ -1,7 +1,7 @@
 # Generative AI (Swift) — Slimmed Model SDK
 
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgoogle-gemini%2Fgenerative-ai-swift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/google-gemini/generative-ai-swift)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgoogle-gemini%2Fgenerative-ai-swift%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/google-gemini/generative-ai-swift)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fwrkstrm%2Fgoogle-ai-swift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/wrkstrm/google-ai-swift)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fwrkstrm%2Fgoogle-ai-swift%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/wrkstrm/google-ai-swift)
 
 This repository is a slimmed-down fork focused on model access only. UI layers have been removed and now live under our cross-app Gen UI package. This package exposes the Google Generative AI client (models) without UI, and bundled chat demos have been decommissioned to keep the surface area headless.
 
@@ -17,7 +17,7 @@ This repository is a slimmed-down fork focused on model access only. UI layers h
 3. [Create an API key](https://aistudio.google.com/app/apikey). Note that in Europe the free tier is
    not available.
 4. Check out this repository. \
-   `git clone https://github.com/google/generative-ai-swift`
+   `git clone https://github.com/wrkstrm/google-ai-swift`
 5. Open and build the sample app in the `Examples` folder of this repo.
 6. Run the app once to ensure the build script generates an empty `GenerativeAI-Info.plist` file
 7. Paste your API key into the `API_KEY` property in the `GenerativeAI-Info.plist` file.
@@ -58,7 +58,7 @@ the package root.
 
 ## Contributing
 
-See [Contributing](https://github.com/google/generative-ai-swift/blob/main/docs/CONTRIBUTING.md) for
+See [Contributing](https://github.com/wrkstrm/google-ai-swift/blob/main/docs/CONTRIBUTING.md) for
 more information on contributing to the Google AI SDK for Swift.
 
 ## License

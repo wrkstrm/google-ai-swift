@@ -6,7 +6,7 @@
 
 ## Setting up your development environment
 
-- `git clone git@github.com:google/generative-ai-swift.git`
+- `git clone git@github.com:wrkstrm/google-ai-swift.git`
 - `open Package.swift`
 - Command-u to build and run the library and unit tests
 - `open Examples/GenerativeAISample/GenerativeAISample.xcodeproj` to build and run the Examples

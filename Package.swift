@@ -27,7 +27,7 @@ ConfigurationService.remote.dependencies = [
 ]
 
 let package = Package(
-  name: "generative-ai-swift",
+  name: "google-ai-swift",
   platforms: [
     .iOS(.v17),
     .macOS(.v15),
