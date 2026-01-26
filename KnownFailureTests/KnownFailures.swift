@@ -177,7 +177,7 @@ extension GenerativeModelKnownFailureTests {
     if let directMatch = Bundle.module.url(forResource: name, withExtension: ext) {
       return directMatch
     }
-    let subdirectories = ["GenerateContentResponses", "CountTokenResponses"]
+    let subdirectories = ["generate-content-responses", "count-token-responses"]
     for subdirectory in subdirectories {
       if let match = Bundle.module.url(
         forResource: name,

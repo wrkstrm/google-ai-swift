@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import Foundation
-import WrkstrmLog
+import CommonLog
 
 /// An object that represents a back-and-forth chat with a model, capturing the history and saving
 /// the context in memory between each message sent.

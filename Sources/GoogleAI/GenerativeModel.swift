@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import Foundation
-import WrkstrmLog
+import CommonLog
 import WrkstrmNetworking
 
 /// A type that represents a remote multimodal model (like Gemini), with the ability to generate

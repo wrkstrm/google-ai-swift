@@ -14,7 +14,7 @@
 
 import Foundation
 import WrkstrmFoundation
-import WrkstrmLog
+import CommonLog
 import WrkstrmNetworking
 
 #if canImport(FoundationNetworking)

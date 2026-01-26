@@ -17,13 +17,21 @@ import PackageDescription
 // limitations under the License.
 
 ConfigurationService.local.dependencies = [
-  .package(name: "WrkstrmLog", path: "../WrkstrmLog"),
-  .package(name: "WrkstrmFoundation", path: "../WrkstrmFoundation"),
+  .package(name: "common-log", path: "../../system/common-log"),
+  .package(
+    name: "wrkstrm-foundation",
+    path: "../../../../domain/system/wrkstrm-foundation"
+  ),
+  .package(
+    name: "wrkstrm-networking",
+    path: "../../../../domain/system/wrkstrm-networking"
+  ),
 ]
 
 ConfigurationService.remote.dependencies = [
-  .package(url: "https://github.com/wrkstrm/WrkstrmLog.git", from: "2.0.0"),
-  .package(url: "https://github.com/wrkstrm/WrkstrmFoundation.git", from: "2.0.0"),
+  .package(url: "https://github.com/wrkstrm/common-log.git", from: "3.0.0"),
+  .package(url: "https://github.com/wrkstrm/wrkstrm-foundation.git", from: "3.0.0"),
+  .package(url: "https://github.com/wrkstrm/wrkstrm-networking.git", from: "3.0.0"),
 ]
 
 let package = Package(
@@ -44,9 +52,9 @@ let package = Package(
     .target(
       name: "GoogleGenerativeAI",
       dependencies: [
-        .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmNetworking", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmLog", package: "WrkstrmLog"),
+        .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation"),
+        .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
+        .product(name: "CommonLog", package: "common-log"),
       ],
       path: "Sources/GoogleAI",
     ),
@@ -54,14 +62,14 @@ let package = Package(
       name: "GoogleGenerativeAITests",
       dependencies: [
         "GoogleGenerativeAI",
-        .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmNetworking", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmLog", package: "WrkstrmLog"),
+        .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation"),
+        .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
+        .product(name: "CommonLog", package: "common-log"),
       ],
       path: "Tests",
       resources: [
-        .process("GoogleAITests/Resources/CountTokenResponses"),
-        .process("GoogleAITests/Resources/GenerateContentResponses"),
+        .process("GoogleAITests/resources/count-token-responses"),
+        .process("GoogleAITests/resources/generate-content-responses"),
       ],
       swiftSettings: [.define("DISABLE_KNOWN_FAILURE_TESTS")],
     ),
@@ -69,14 +77,14 @@ let package = Package(
       name: "GoogleGenerativeAIKnownFailureTests",
       dependencies: [
         "GoogleGenerativeAI",
-        .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmNetworking", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmLog", package: "WrkstrmLog"),
+        .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation"),
+        .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
+        .product(name: "CommonLog", package: "common-log"),
       ],
       path: "KnownFailureTests",
       resources: [
-        .process("../Tests/GoogleAITests/Resources/CountTokenResponses"),
-        .process("../Tests/GoogleAITests/Resources/GenerateContentResponses"),
+        .process("../Tests/GoogleAITests/resources/count-token-responses"),
+        .process("../Tests/GoogleAITests/resources/generate-content-responses"),
       ],
     ),
     .testTarget(

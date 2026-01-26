@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import Foundation
-import WrkstrmLog
+import CommonLog
 
 #if canImport(OSLog)
 import OSLog
