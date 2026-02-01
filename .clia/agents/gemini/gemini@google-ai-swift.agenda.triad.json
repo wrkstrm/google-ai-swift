@@ -68,7 +68,7 @@
 
   ],
   "slug" : "gemini",
-  "sourcePath" : ".clia/agents/gemini/gemini.agenda.md",
+  "sourcePath" : ".clia/agents/gemini/gemini.agenda.triad.md",
   "status" : "active",
   "tags" : [
     "utility",

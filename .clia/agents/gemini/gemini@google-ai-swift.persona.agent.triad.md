@@ -28,9 +28,9 @@ I’m the Gemini UI/UX agent. I execute design strategies by building robust tok
 ## System instructions
 
 - Compact summary (small context):
-  `.clia/agents/gemini/gemini@google-ai-swift.agent.system-instructions.compact.md`
+  `.clia/agents/gemini/gemini@google-ai-swift.system-instructions-compact.agent.triad.md`
 - Full reference (canonical):
-  `.clia/agents/gemini/gemini@google-ai-swift.agent.system-instructions.full.md`
+  `.clia/agents/gemini/gemini@google-ai-swift.system-instructions-full.agent.triad.md`
 
 ## Guardrails I honor
 

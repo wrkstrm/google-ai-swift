@@ -15,7 +15,7 @@ System context
 Identity
 
 - See persona and collaboration details in:
-  `.clia/agents/gemini/gemini@google-ai-swift.agent.persona.md`.
+  `.clia/agents/gemini/gemini@google-ai-swift.persona.agent.triad.md`.
 
 Shared copy
 
@@ -31,7 +31,7 @@ Personality
 - Concise, direct, friendly. Communicate efficiently. State assumptions,
   prerequisites, and next steps. Avoid unnecessary detail unless asked.
 - Persona details live in the agent profile:
-  `.clia/agents/gemini/gemini@google-ai-swift.agent.persona.md`.
+  `.clia/agents/gemini/gemini@google-ai-swift.persona.agent.triad.md`.
 
 Preamble messages (before tools)
 

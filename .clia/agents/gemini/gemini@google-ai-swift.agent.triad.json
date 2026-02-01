@@ -136,8 +136,8 @@
     }
   ],
   "persona" : {
-    "profilePath" : ".clia/agents/gemini/gemini@google-ai-swift.agent.persona.md",
-    "reveriesPath" : ".clia/agents/gemini/gemini@google-ai-swift.agent.reveries.md"
+    "profilePath" : ".clia/agents/gemini/gemini@google-ai-swift.persona.agent.triad.md",
+    "reveriesPath" : ".clia/agents/gemini/gemini@google-ai-swift.reveries.agent.triad.md"
   },
   "purpose" : "Execute high-fidelity UI/UX design, managing multi-brand tokens and specifications within DocC.",
   "responsibilities" : [
@@ -174,11 +174,11 @@
     }
   ],
   "slug" : "gemini",
-  "sourcePath" : ".clia/agents/gemini/gemini.agent.md",
+  "sourcePath" : ".clia/agents/gemini/gemini.agent.triad.md",
   "status" : "active",
   "systemInstructions" : {
-    "compactPath" : ".clia/agents/gemini/gemini@google-ai-swift.agent.system-instructions.compact.md",
-    "fullPath" : ".clia/agents/gemini/gemini@google-ai-swift.agent.system-instructions.full.md",
+    "compactPath" : ".clia/agents/gemini/gemini@google-ai-swift.system-instructions-compact.agent.triad.md",
+    "fullPath" : ".clia/agents/gemini/gemini@google-ai-swift.system-instructions-full.agent.triad.md",
     "lastUpdated" : "2025-12-07"
   },
   "tags" : [

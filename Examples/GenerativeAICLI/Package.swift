@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version:6.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 // Copyright 2023 Google LLC
@@ -19,7 +19,7 @@ import PackageDescription
 
 let package = Package(
   name: "GenerativeAICLI",
-  platforms: [.macOS(.v13)],
+  platforms: [.macOS(.v15)],
   dependencies: [
     .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.0"),
     .package(name: "GoogleGenerativeAI", path: "../../"),
