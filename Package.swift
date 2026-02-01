@@ -20,11 +20,11 @@ ConfigurationService.local.dependencies = [
   .package(name: "common-log", path: "../../system/common-log"),
   .package(
     name: "wrkstrm-foundation",
-    path: "../../../../domain/system/wrkstrm-foundation"
+    path: "../../../../../../wrkstrm/spm/universal/domain/system/wrkstrm-foundation"
   ),
   .package(
     name: "wrkstrm-networking",
-    path: "../../../../domain/system/wrkstrm-networking"
+    path: "../../../../../../wrkstrm/spm/universal/domain/system/wrkstrm-networking"
   ),
 ]
 
