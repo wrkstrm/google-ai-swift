@@ -14,8 +14,8 @@ additive to any parent repo policies.
 
 ## CLIA and triads
 
-- Canonical source is JSON triads (`*.agent.json`, `*.agenda.json`,
-  `*.agency.json`).
+- Canonical source is JSON triads (`*.agent.triad.json`, `*.agenda.triad.json`,
+  `*.agency.triad.json`).
 - Markdown mirrors in `.generated/` are non-canonical.
 - Keep triads formatted with the repo’s canonical JSON formatter when editing.
 
@@ -31,4 +31,3 @@ additive to any parent repo policies.
 - Prefer Swift over Python for automation; keep shell snippets minimal.
 - Do not add Makefiles.
 - Git operations require explicit human approval.
-
